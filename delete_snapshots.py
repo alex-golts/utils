@@ -1,3 +1,4 @@
+# this is a script for deleting snapper snapshots that are deemed "Illegal" when using snapper delete 
 import os
 snapshot_locations = '/home/.snapshots/'
 dirnames = os.listdir(snapshot_locations)
